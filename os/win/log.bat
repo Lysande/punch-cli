@@ -1,6 +1,6 @@
 @echo off
 
-SET cli=../punch-cli.bat
+SET cli=../timeclock-cli.bat
 SET command=log
 
 rem Allows for piping input, but requires extra keypress if not piping

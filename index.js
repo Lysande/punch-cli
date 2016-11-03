@@ -39,7 +39,7 @@ module.exports = (function () {
 
   let cli = require("commander");
 
-  cli.command("clock <direction>").action(helper.toPrinter(app.clock));
+  cli.command("punch <direction>").action(helper.toPrinter(app.punch));
 
   /** 
       By setting up the option like this, 
